@@ -18,7 +18,7 @@ def IsPrime(x):
   elif x % 2 == 0:
     return False
   else:
-    for j in range( 3, int( ceil( sqrt(x) ) ) + 1 ):
+    for j in range( 3, int( ceil( sqrt(x) ) ) + 1, 2 ):
       if x % j == 0:
         return False
     return True
