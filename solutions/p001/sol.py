@@ -1,10 +1,8 @@
 #!/usr/bin/env python
 
-
 MAX_INT = 1000
 BASE1 = 3
 BASE2 = 5
-
 
 def SolveViaBruteForce():
   '''
@@ -17,10 +15,8 @@ def SolveViaBruteForce():
       total += i
   print total
 
-
 def main():
   SolveViaBruteForce()
-
 
 if __name__ == "__main__":
   main()

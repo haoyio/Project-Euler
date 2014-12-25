@@ -1,10 +1,8 @@
 #!/usr/bin/env python
 
-
 MAX_INT = 4000000
 FIRST_INT = 1
 SECOND_INT = 2
-
 
 def SumViaSkipTwo():
   '''
@@ -25,10 +23,8 @@ def SumViaSkipTwo():
     prevInt = secondOddInt
   print total
 
-
 def main():
   SumViaSkipTwo()
-
 
 if __name__ == "__main__":
   main()

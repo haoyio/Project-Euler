@@ -24,7 +24,7 @@ def IsPrime(x):
   elif IsEven(x):
     return False
   else:
-    for j in range(3, int(sqrt(x))):
+    for j in range( 3, int( ceil( sqrt(x) ) ) + 1 ):
       if x % j == 0:
         return False
     return True
